@@ -2,6 +2,9 @@
 
 # dependencies
 node_modules/
+.env
+.env.*
+!.env.example
 
 # Expo
 .expo/
@@ -25,13 +28,12 @@ expo-env.d.ts
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+.pnpm-debug.log*
 
-# macOS
+# OS / macOS / Windows
 .DS_Store
+Thumbs.db
 *.pem
-
-# local env files
-.env*.local
 
 # typescript
 *.tsbuildinfo
